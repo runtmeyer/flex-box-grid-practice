@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+
+main{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    margin-top: 140px;
+    height: 400px;
+    
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+}
+h1{
+    font-family: 'Big Shoulders Display', ;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 12px;
+    font-weight: 400;
+}
+button{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
+.B1{
+    width: 115px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    margin-top: 90px;
+}
+.B1:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.B2{
+    width: 115px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+    margin-top: 91px;
+}
+.B2:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.B3{
+    width: 115px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    cursor: pointer;
+    margin-top: 91px;
+}
+.B3:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+
+.outer{
+    background-color: black;
+    color: white;
+    width: 10%;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:800px) {
+    main{
+        width: 400px;
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    main{
+        flex-direction: column;
+        width: 70%;
+    }
+    
+}
+
+
+.gb{
+    background-color: black;
+    width: 30%;
+    height: 45px;
+    border-radius: 7px;
+    margin: 25px 25px ;
+    color: white;
+}
